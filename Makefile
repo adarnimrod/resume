@@ -1,16 +1,19 @@
-all: pdf html docx odt
+resume = resume.rst
+papersize = A4
 
-pdf: resume.rst
-	pandoc resume.rst -o resume.pdf
+all: html pdf docx odt
 
-html: resume.rst
-	pandoc -s resume.rst -o resume.html
+html: $(resume)
+	pandoc -s -t html5 --email-obfuscation=none -c resume.css $(resume) -o resume.html
 
-docx: resume.rst
-	pandoc resume.rst -o resume.docx
+pdf: $(resume) html
+	pandoc resume.html -V papersize=$(papersize) -o resume.pdf
 
-odt: resume.rst
-	pandoc resume.rst -o resume.odt
+docx: $(resume) html
+	pandoc resume.html -V papersize=$(papersize) -o resume.docx
+
+odt: $(resume) html
+	pandoc resume.html -V papersize=$(papersize) -o resume.odt
 
 clean:
 	rm resume.html resume.pdf resume.docx resume.odt
