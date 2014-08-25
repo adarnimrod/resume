@@ -1,15 +1,85 @@
+Nimrod Adar - Resume
+####################
+
+Contact information
+-------------------
+
+:Tel:
+   +972-52-871-3696
+
+:Mail:
+   nimrod@shore.co.il
+
 About me
-########
+--------
 
-:date: 2014-04-19
-:summary: All about Nimrod.
-:slug: about-me
+- Programming since 1996 in multiple languages, including: Python, C,
+  C++, Scheme, Pascal, Perl and Assembly (mostly C and Python).
 
-Hi.
-I'm Nimrod Adar, a Linux and BSD sysadmin and as-needed developer from Haifa, Israel.
+- Had a homelab since 2001. Started with NT4, then W2K with AD.
 
-This is my blog about what I do and thus it serves 2 purposes. The 1st is to be my personal journal to document the how or why of some problem solving. The 2nd is more outward facing, for it be a resource for others (by no way complete) and for me to publish whenever I need to.
+- Using Linux/Unix since 2004, exclusively since 2007.
 
-Also, I'm a part-time freelancer so you can contact me at `nimrod@shore.co.il <mailto: nimrod@shore.co.il>`_ or at 052-8713696 (+972-52-871-3696 outside of Israel).
+- In homelab now: Debian, FreeBSD and OpenBSD, OpenLDAP, LXC and jails,
+  Puppet, KVM/ libvirt. Running my own domain, secure web, mail servers
+  and signed Debian package repository, simple load balancing and
+  proxying, embedded OpenWRT ipsec VPN endpoints, some AWS instances,
+  DMZ for internet-facing services.
 
-Last thing, my public `GPG public key <https://www.shore.co.il/blog/static/nimrod.gpg>`_
+- Speaks Hebrew (mother tongue) and English (Fluent).
+
+- Born in ’83.
+
+- Resides in Haifa, Israel.
+
+- German and Israeli citizenship.
+
+- Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarens.
+
+Employment
+----------
+
+:2013:
+   Sysadmin in Intel Haifa (managing a cluster of ~250 SuSE Linux
+   servers and ~80 TB of EMC and NetApp NAS appliances using NFS in
+   production and DR replicated environments, shell scripting, Python
+   and automation and some package managment).
+
+:2008-2013:
+  Technical director of Haifa's cinematheque (Setup a
+  windows based ticketing system with PowerShell automation, new LAMP
+  based web site with online orders, new digital projection system with
+  Linux server, networking projection rooms and self built 20TB NAS
+  based on Debian).
+
+:2008-2009:
+   Tutor at Hadar Haifa learning center.
+
+:2005-2007:
+   Different help desk and jr. sysadmin positions (Assisting
+   with multiple DNS, DHCP on Windows and Linux, Networking and routing,
+   wireless access points with WPA-Enterprise, thin clients with PXE
+   booting and Windows Terminal Services, tape backups, RHEL and Ubuntu
+   support)
+
+Education
+---------
+
+:2007-2010:
+   Haifa University, majoring in CS.
+
+:2006:
+   Technion, majoring in MIS
+
+Military Service
+----------------
+
+:2002-2005:
+   L.T. Of the Commanders School in the Israeli navy training base, exemplary service.
+
+Job expectations
+----------------
+
+Looking for a sysadmin, devops or integration position. Preferably in
+Haifa, willing to commute to Tel-Aviv if the office is close to a train
+station, or telecommute.
