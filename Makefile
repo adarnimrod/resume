@@ -21,3 +21,6 @@ clean:
 
 publish: all
 	rsync -az --exclude="$(RESUME)" --exclude="Makefile" --exclude="resume.css" ./ www.shore.co.il:/var/www/htdocs/www.shore.co.il/resume
+
+clone:
+	git push gitweb master

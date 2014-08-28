@@ -16,7 +16,12 @@ About me
 - Programming since 1996 in multiple languages, including: Python, C,
   C++, Scheme, Pascal, Perl and Assembly (mostly C and Python).
 
-- Had a homelab since 2001. Started with NT4, then W2K with AD.
+- Proud homelab owner since 2001 (started with Windows NT4).
+  Today using OpenBSD as router, proxy and load-balancer and Linux containers
+  for email, web, domain, package repository, LDAP, etc. Redundant services in
+  Amazon's AWS.
+
+- Experienced with multiple virtualization and cloud providers.
 
 - Using Linux/Unix since 2004, exclusively since 2007.
 
@@ -53,7 +58,12 @@ Employment
   based on Debian).
 
 :2008-2009:
-   Tutor at Hadar Haifa learning center.
+   Tutor at Hadar Haifa learning center, teaching math and English.
+
+:2007-2008:
+    Jr. sysadmin and helpdesk in Haifa University' library. Assisted in
+    decommissioning a Novell directory and moving to Active Directory and
+    supported Windows and RHEL servers, networking and backup 
 
 :2005-2007:
    Different help desk and jr. sysadmin positions (Assisting
@@ -75,7 +85,7 @@ Military Service
 ----------------
 
 :2002-2005:
-   L.T. Of the Commanders School in the Israeli navy training base, exemplary service.
+   L.T. Of the Israeli Navy Commanding School, exemplary service.
 
 Job expectations
 ----------------
