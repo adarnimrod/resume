@@ -13,25 +13,18 @@ Contact information
 About me
 --------
 
-- Programming since 1996 in multiple languages, including: Python, C,
-  C++, Scheme, Pascal, Perl and Assembly (mostly C and Python).
+- Programming since 1996 in multiple languages, including: Python, C, C++,
+  Scheme, Pascal, Perl and Assembly (mostly C and Python).
 
 - Proud homelab owner since 2001 (started with Windows NT4).
-  Today using OpenBSD as router, proxy and load-balancer and Linux containers
-  for email, web, domain, package repository, LDAP, etc. Redundant services in
-  Amazon's AWS.
+  Today using OpenBSD as router, proxy, VPN server and load-balancer, Linux
+  containers for email, web, domain, package repository, LDAP, etc. redundant
+  services in Amazon's AWS and openWRT ipsec endpoints, Fabric and Ansible for
+  automation and deployment.
 
-- Experienced with multiple virtualization and cloud providers.
+- Security geek.
 
-- Using Linux/Unix since 2004, exclusively since 2007.
-
-- In homelab now: Debian, FreeBSD and OpenBSD, OpenLDAP, LXC and jails,
-  Puppet, KVM/ libvirt. Running my own domain, secure web, mail servers
-  and signed Debian package repository, simple load balancing and
-  proxying, embedded OpenWRT ipsec VPN endpoints, some AWS instances,
-  DMZ for internet-facing services.
-
-- Speaks Hebrew (mother tongue) and English (Fluent).
+- Speaks Hebrew (mother tongue), English (Fluent) and some Yiddish.
 
 - Born in ’83.
 
@@ -44,33 +37,27 @@ About me
 Employment
 ----------
 
-:2013:
-   Sysadmin in Intel Haifa (managing a cluster of ~250 SuSE Linux
-   servers and ~80 TB of EMC and NetApp NAS appliances using NFS in
-   production and DR replicated environments, shell scripting, Python
-   and automation and some package managment).
+:2013-now:
+   Sysadmin in Intel Haifa, managing a cluster of ~250 SuSE Linux servers and
+   ~80 TB of EMC and NetApp NAS appliances in production and DR replicated
+   environments, shell and Python scripting, automation, software deployment,
+   monitoring and growth projection.
 
 :2008-2013:
-  Technical director of Haifa's cinematheque (Setup a
-  windows based ticketing system with PowerShell automation, new LAMP
-  based web site with online orders, new digital projection system with
-  Linux server, networking projection rooms and self built 20TB NAS
-  based on Debian).
+  Technical director of Haifa's cinematheque. Setup a windows based ticketing
+  system with PowerShell automation, new LAMP based web site with online
+  orders, new digital projection system with Linux-based players, networking
+  projection rooms and self built 20TB NAS based on Debian.
 
-:2008-2009:
-   Tutor at Hadar Haifa learning center, teaching math and English.
+:2007-2009:
+   Volunteered as a tutor at Hadar Haifa learning center, teaching math and
+   English.
 
 :2007-2008:
     Jr. sysadmin and helpdesk in Haifa University' library. Assisted in
     decommissioning a Novell directory and moving to Active Directory and
-    supported Windows and RHEL servers, networking and backup 
-
-:2005-2007:
-   Different help desk and jr. sysadmin positions (Assisting
-   with multiple DNS, DHCP on Windows and Linux, Networking and routing,
-   wireless access points with WPA-Enterprise, thin clients with PXE
-   booting and Windows Terminal Services, tape backups, RHEL and Ubuntu
-   support)
+    supported Windows and RHEL servers, networking, VMware ESX, backup and
+    Windows Terminal Services with thin-clients.
 
 Education
 ---------
