@@ -2,3 +2,8 @@ resume.html
 resume.pdf
 resume.docx
 resume.odt
+*.log
+*.swp
+*.swo
+~*
+*~
