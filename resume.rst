@@ -40,9 +40,9 @@ Employment
 
 :2014-2015:
   DevOps in `Wise ecommerce <https://www.wiser.com/>`_, in charge of
-  reliability, automation, scaling. Proudest moment: scaling a (really) flaky
-  process to 10,000s of requests a minute running of 10s of nodes on AWS (using
-  Ansible, LXC and AWS autoscaling groups).
+  reliability, automation, scaling. Proudest moment: scaling a single process to
+  10,000s of requests a minutes running to 10s of nodes on AWS (using Ansible,
+  LXC and EC2 autoscaling groups).
 
 :2013-2014:
    Sysadmin in Intel Haifa, managing a cluster of ~250 SuSE Linux servers and
