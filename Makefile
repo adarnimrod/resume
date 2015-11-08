@@ -1,23 +1,28 @@
 RESUME = resume.rst
-CSS = resume.css
 PAPERSIZE = A4
+SERVER = www.shore.co.il
+DEST = /var/www/htdocs/www.shore.co.il/resume
 
-all: html pdf docx odt
+.PHONY: all clean publish test
 
-html: $(RESUME)
-	pandoc -s -t html5 --email-obfuscation=none -c resume.css $(RESUME) -o resume.html
+resume.html: $(RESUME)
+	pandoc -s -t html5 --email-obfuscation=none $(RESUME) -o resume.html
 
-pdf: $(RESUME)
+resume.pdf: $(RESUME)
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.pdf
 
-docx: $(RESUME) html
+resume.docx: $(RESUME)
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.docx
 
-odt: $(RESUME) html
-	pandoc $(RESUME) -c $(CSS) -o resume.odt
+resume.odt: $(RESUME)
+	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.odt
+
+all: resume.html resume.pdf resume.docx resume.odt
 
 clean:
-	rm resume.html resume.pdf resume.docx resume.odt
+	rm -f resume.html resume.pdf resume.docx resume.odt
 
 publish: all
-	rsync -az --exclude="Makefile" --exclude="resume.css" ./ www.shore.co.il:/var/www/htdocs/www.shore.co.il/resume
+	rsync -az resume.html resume.pdf resume.odt resume.docx $(SERVER):$(DEST)
+
+test: clean all clean
