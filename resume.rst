@@ -10,6 +10,9 @@ Contact information
 :Mail:
    nimrod@shore.co.il
 
+:Git repos:
+    https://www.shore.co.il/cgit/
+
 About me
 --------
 
@@ -33,7 +36,7 @@ About me
 
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarens.
 
-- Likes: Python, Ansible, git, SSH, local unit tests, remote CI tests 
+- Likes: Python, Ansible, git, SSH, local unit tests, remote CI tests.
 
 Employment
 ----------
