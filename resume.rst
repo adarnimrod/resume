@@ -1,5 +1,5 @@
-Nimrod Adar - Resume
-####################
+Nimrod Adar - Resume (November 2015)
+####################################
 
 Contact information
 -------------------
@@ -13,31 +13,38 @@ Contact information
 About me
 --------
 
-- Programming since 1996 in multiple languages, including: Python, C, C++,
-  Scheme, Pascal, Perl and Assembly (mostly C and Python).
-
-- Proud homelab owner since 2001 (started with Windows NT4).
-  Today using OpenBSD as router, proxy, VPN server and load-balancer, Linux
-  containers for email, web, domain, package repository, LDAP, etc. redundant
-  services in Amazon's AWS and openWRT ipsec endpoints, Fabric and Ansible for
-  automation and deployment.
-
-- Security geek.
-
-- Speaks Hebrew (mother tongue), English (Fluent) and some Yiddish.
-
 - Born in ’83.
 
 - Resides in Haifa, Israel.
 
 - German and Israeli citizenship.
 
+- First computer - 1989, first program - 1993, first homelab - 1999.
+
+- Python backend developer (dabbled in C, C++, Scheme, Pascal, Perl, PHP, JS,
+  Ruby, Clojure, Lua).
+
+- sh < Awk < Fabric < Ansible.
+
+- Believe in secure by default, not implemented if not reproducable (that
+  includes testing), build with failure in mind and opensource.
+
+- Speaks Hebrew (mother tongue), English (Fluent) and some Yiddish.
+
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarens.
+
+- Likes: Python, Ansible, git, SSH, local unit tests, remote CI tests 
 
 Employment
 ----------
 
-:2013-now:
+:2014-2015:
+  DevOps in `Wise ecommerce <https://www.wiser.com/>`_, in charge of
+  reliability, automation, scaling. Proudest moment: scaling a (really) flaky
+  process to 10,000s of requests a minute running of 10s of nodes on AWS (using
+  Ansible, LXC and AWS autoscaling groups).
+
+:2013-2014:
    Sysadmin in Intel Haifa, managing a cluster of ~250 SuSE Linux servers and
    ~80 TB of EMC and NetApp NAS appliances in production and DR replicated
    environments, shell and Python scripting, automation, software deployment,
@@ -77,6 +84,5 @@ Military Service
 Job expectations
 ----------------
 
-Looking for a sysadmin, devops or integration position. Preferably in
-Haifa, willing to commute to Tel-Aviv if the office is close to a train
-station, or telecommute.
+Looking for a sysadmin, devops or integration position. Preferably in Haifa,
+Tel-aviv or anywhere with a train station, remote work is also possible.
