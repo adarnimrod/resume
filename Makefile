@@ -25,4 +25,4 @@ clean:
 publish: all
 	rsync -az resume.html resume.pdf resume.odt resume.docx $(SERVER):$(DEST)
 
-test: clean all clean
+test: clean all
