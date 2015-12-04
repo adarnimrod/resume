@@ -8,7 +8,8 @@ available `here <https://www.shore.co.il/blog/pages/about-me.html>`_.
 Dependencies
 ------------
 
-Make, pandoc, rsync, pdflatex.
+Make, pandoc, rsync, pdflatex (in `Debian texlive-latex-base` provides
+pdflatex, also 'texlive-fonts-recommended' is needed for the fonts it provides).
 
 Usage
 -----
