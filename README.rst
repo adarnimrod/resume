@@ -15,16 +15,19 @@ Usage
 -----
 
 To build the pdf version (same for odt, html, docx)
+
 .. code:: shell
 
     make pdf
 
 To build all versions
+
 .. code:: shell
 
     make all
 
 To upload to webserver (includes rebuilding all versions)
+
 .. code:: shell
 
     make publish
