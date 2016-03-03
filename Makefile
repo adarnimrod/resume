@@ -1,7 +1,14 @@
+# Server name to upload
+SERVER = hostname.tld
+
+# Destination folder on the server
+DEST = /var/www/resume
+
+# Source resume
 RESUME = resume.rst
+
+# Output paper size
 PAPERSIZE = A4
-SERVER = www.shore.co.il
-DEST = /var/www/htdocs/www.shore.co.il/resume
 
 .PHONY: all clean publish test
 
@@ -20,7 +27,7 @@ resume.odt: $(RESUME)
 all: resume.html resume.pdf resume.docx resume.odt
 
 clean:
-	rm -f resume.html resume.pdf resume.docx resume.odt
+	rm -f resume.html resume.pdf resume.docx resume.odt *.log
 
 publish: all
 	rsync -az resume.html resume.pdf resume.odt resume.docx $(SERVER):$(DEST)

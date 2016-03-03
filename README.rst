@@ -1,18 +1,20 @@
-Nimrod Adar's resume
-====================
+Resume generator
+================
 
-My resume in RestructureText, make targets for generating PDF, HTML, ODT and
-DOCX versions and uploading to my web server. The pre-prepared version are
-available `here <https://www.shore.co.il/blog/pages/about-me.html>`_.
+A (very) little framework to generate your resume from whatever markup that
+suits you (and that Pandoc can read).
 
 Dependencies
 ------------
 
-Make, pandoc, rsync, pdflatex (in :code:`Debian texlive-latex-base` provides
-pdflatex, also 'texlive-fonts-recommended' is needed for the fonts it provides).
+Make, pandoc, rsync, pdflatex (in Debian texlive-latex-base provides pdflatex,
+also texlive-fonts-recommended is needed for the fonts it provides).
 
 Usage
 -----
+
+The various settings (input file, server name to upload, etc.) are specified in
+the :code:`Makefile`, adjust according to your needs.
 
 To build the pdf version (same for odt, html, docx)
 
