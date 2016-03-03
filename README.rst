@@ -1,8 +1,11 @@
-Resume generator
-================
+Nimrod Adar's resume
+====================
 
-A (very) little framework to generate your resume from whatever markup that
-suits you (and that Pandoc can read).
+My resume in RestructureText, make targets for generating PDF, HTML, ODT and
+DOCX versions and uploading to my web server. The pre-prepared version are
+available `here <https://www.shore.co.il/blog/pages/about-me.html>`_. The
+version in the master branch is generic and without my resume, in the nimrod
+branch are my resume and specific settings.
 
 Dependencies
 ------------
