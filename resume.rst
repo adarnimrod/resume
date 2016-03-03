@@ -10,6 +10,9 @@ Contact information
 :Mail:
    nimrod@shore.co.il
 
+:Blog:
+    https://www.shore.co.il/blog/
+
 :Git repos:
     https://www.shore.co.il/cgit/
 
@@ -25,7 +28,7 @@ About me
 - First computer - 1989, first program - 1993, first homelab - 1999.
 
 - Python backend developer (dabbled in C, C++, Scheme, Pascal, Perl, PHP, JS,
-  Ruby, Clojure, Lua).
+  Ruby, currently learning Clojure and Lua).
 
 - sh < Awk < Fabric < Ansible.
 
@@ -36,16 +39,18 @@ About me
 
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarens.
 
-- Likes: Python, Ansible, git, SSH, local unit tests, remote CI tests.
+- Likes: Python, Ansible, git, SSH, vim, local unit test, automated CI tests.
+
+- Dislikes: Bureaucracy, knowledge silos, 
 
 Employment
 ----------
 
 :2014-2015:
   DevOps in `Wise ecommerce <https://www.wiser.com/>`_, in charge of
-  reliability, automation, scaling. Proudest moment: scaling a single process to
-  10,000s of requests a minutes running to 10s of nodes on AWS (using Ansible,
-  LXC and EC2 autoscaling groups).
+  reliability, automation, scaling. Helped transition the company from single
+  physical server to AWS. Proudest moment: scaling a single process to 10,000s
+  of requests a minute running on 10s of nodes on AWS (using Ansible and LXC).
 
 :2013-2014:
    Sysadmin in Intel Haifa, managing a cluster of ~250 SuSE Linux servers and
@@ -87,5 +92,5 @@ Military Service
 Job expectations
 ----------------
 
-Looking for a sysadmin, devops or integration position. Preferably in Haifa,
-Tel-aviv or anywhere with a train station, remote work is also possible.
+Looking for a sysadmin/ devops position. Preferably in Haifa, Tel-aviv or
+anywhere with a train station near, remote work is also possible.
