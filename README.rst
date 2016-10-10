@@ -4,6 +4,9 @@ Resume generator
 A (very) little framework to generate your resume from whatever markup that
 suits you (and that Pandoc can read).
 
+My own resume is in the :code:`nimrod` branch, the outputed files can be found
+in my `about me <https://www.shore.co.il/blog/pages/about-me.html>`_ page.
+
 Dependencies
 ------------
 
