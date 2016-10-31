@@ -1,4 +1,4 @@
-Nimrod Adar - Resume (November 2015)
+Nimrod Adar - Resume (November 2016)
 ####################################
 
 Contact information
@@ -14,7 +14,7 @@ Contact information
     https://www.shore.co.il/blog/
 
 :Git repos:
-    https://www.shore.co.il/cgit/
+    https://www.shore.co.il/git/
 
 About me
 --------
@@ -28,23 +28,30 @@ About me
 - First computer - 1989, first program - 1993, first homelab - 1999.
 
 - Python backend developer (dabbled in C, C++, Scheme, Pascal, Perl, PHP, JS,
-  Ruby, currently learning Clojure and Lua).
+  Ruby, Go, Clojure and Lua).
 
 - sh < Awk < Fabric < Ansible.
 
-- Believe in secure by default, not implemented if not reproducable (that
-  includes testing), build with failure in mind and opensource.
+- Believe in secure by default, not implemented if not reproducible (that
+  includes testing), build with failure in mind and open-source.
 
 - Speaks Hebrew (mother tongue), English (Fluent) and some Yiddish.
 
-- Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarens.
+- Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarans.
 
-- Likes: Python, Ansible, git, SSH, vim, local unit test, automated CI tests.
+- Likes: Python, Ansible, Git, SSH, Vim, locally run unit testing.
 
-- Dislikes: Bureaucracy, knowledge silos, 
+- Dislikes: Bureaucracy, knowledge silos.
 
 Employment
 ----------
+
+:2016:
+  DevOps in `FDNA <https://www.fdna.com/>`_. Migrated production and dev
+  environments to AWS. Inherited a big Ansible codebase, added testing and a
+  refactored. Instituted CI, CD (for some projects) and an artifact
+  repository. Replaced unmaintained Nagios setup with a fully automated
+  CloudWatch metrics and alerts setup.
 
 :2014-2015:
   DevOps in `Wise ecommerce <https://www.wiser.com/>`_, in charge of
@@ -59,7 +66,7 @@ Employment
    monitoring and growth projection.
 
 :2008-2013:
-  Technical director of Haifa's cinematheque. Setup a windows based ticketing
+  Technical director of Haifa's Cinematheque. Setup a windows based ticketing
   system with PowerShell automation, new LAMP based web site with online
   orders, new digital projection system with Linux-based players, networking
   projection rooms and self built 20TB NAS based on Debian.
@@ -69,7 +76,7 @@ Employment
    English.
 
 :2007-2008:
-    Jr. sysadmin and helpdesk in Haifa University' library. Assisted in
+    Jr. sysadmin and help-desk in Haifa University' library. Assisted in
     decommissioning a Novell directory and moving to Active Directory and
     supported Windows and RHEL servers, networking, VMware ESX, backup and
     Windows Terminal Services with thin-clients.
