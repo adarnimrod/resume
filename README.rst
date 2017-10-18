@@ -7,6 +7,9 @@ available `here <https://www.shore.co.il/blog/pages/about-me.html>`_. The
 version in the master branch is generic and without my resume, in the nimrod
 branch are my resume and specific settings.
 
+My own resume is in the :code:`nimrod` branch, the outputed files can be found
+in my `about me <https://www.shore.co.il/blog/pages/about-me.html>`_ page.
+
 Dependencies
 ------------
 
@@ -50,4 +53,4 @@ Author
 Nimrod Adar, `contact me <nimrod@shore.co.il>`_ or visit my `website
 <https://www.shore.co.il/>`_. Patches are welcome via `git send-email
 <http://git-scm.com/book/en/v2/Git-Commands-Email>`_. The repository is located
-at: https://www.shore.co.il/cgit/.
+at: https://www.shore.co.il/git/.

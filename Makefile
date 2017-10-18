@@ -12,6 +12,8 @@ PAPERSIZE = A4
 
 .PHONY: all clean publish test
 
+all: resume.html resume.pdf resume.docx resume.odt
+
 resume.html: $(RESUME)
 	pandoc -s -t html5 --email-obfuscation=none $(RESUME) -o resume.html
 
@@ -23,8 +25,6 @@ resume.docx: $(RESUME)
 
 resume.odt: $(RESUME)
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.odt
-
-all: resume.html resume.pdf resume.docx resume.odt
 
 clean:
 	rm -f resume.html resume.pdf resume.docx resume.odt *.log
