@@ -27,7 +27,7 @@ resume.odt: $(RESUME)
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.odt
 
 clean:
-	rm -f resume.html resume.pdf resume.docx resume.odt *.log
+	git clean -fdX
 
 publish: all
 	rsync -az resume.html resume.pdf resume.odt resume.docx $(SERVER):$(DEST)

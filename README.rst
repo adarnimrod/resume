@@ -10,8 +10,8 @@ in my `about me <https://www.shore.co.il/blog/pages/about-me.html>`_ page.
 Dependencies
 ------------
 
-Make, pandoc, rsync, pdflatex (in Debian texlive-latex-base provides pdflatex,
-also texlive-fonts-recommended is needed for the fonts it provides).
+- `Docker <https://www.docker.com/>`_ (for building).
+- rsync (for uploading).
 
 Usage
 -----
@@ -23,13 +23,13 @@ To build the pdf version (same for odt, html, docx)
 
 .. code:: shell
 
-    make pdf
+    docker run -itv "$PWD:/project" adarnimrod/presentation make pdf
 
 To build all versions
 
 .. code:: shell
 
-    make all
+    docker run -itv "$PWD:/project" adarnimrod/presentation make
 
 To upload to webserver (includes rebuilding all versions)
 
