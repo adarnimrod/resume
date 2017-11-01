@@ -14,16 +14,16 @@ PAPERSIZE = A4
 
 all: resume.html resume.pdf resume.docx resume.odt
 
-resume.html: $(RESUME)
+resume.html: $(RESUME) Makefile
 	pandoc -s -t html5 --email-obfuscation=none $(RESUME) -o resume.html
 
-resume.pdf: $(RESUME)
+resume.pdf: $(RESUME) Makefile
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.pdf
 
-resume.docx: $(RESUME)
+resume.docx: $(RESUME) Makefile
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.docx
 
-resume.odt: $(RESUME)
+resume.odt: $(RESUME) Makefile
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.odt
 
 clean:
