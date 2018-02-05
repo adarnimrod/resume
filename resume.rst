@@ -57,7 +57,7 @@ Employment
   environments to AWS. Inherited a big Ansible code-base, added testing and a
   refactored. Instituted CI, CD (for some projects) and an artifact
   repository. Replaced unmaintained Nagios setup with a fully automated
-  CloudWatch metrics and alerts setup.
+  CloudWatch metrics and Lambda alerts setup.
 
 :2014-2015:
   DevOps in `Wise ecommerce <https://www.wiser.com/>`_, in charge of
