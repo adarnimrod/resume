@@ -1,5 +1,5 @@
-Nimrod Adar - Resume (November 2016)
-####################################
+Nimrod Adar - Resume (January 2018)
+###################################
 
 Contact information
 -------------------
@@ -32,23 +32,29 @@ About me
 
 - sh < Awk < Fabric < Ansible.
 
-- Believe in secure by default, not implemented if not reproducible (that
-  includes testing), build with failure in mind and open-source.
+- Believes in infrastructure as code, reproducibility, readability and good
+  documentation.
 
 - Speaks Hebrew (mother tongue), English (Fluent) and some Yiddish.
 
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarans.
 
-- Likes: Python, Ansible, Git, SSH, Vim, locally run unit testing.
+- Likes: Python, Ansible, Git, SSH, Vim, Docker, Markdown and the command line.
 
 - Dislikes: Bureaucracy, knowledge silos.
 
 Employment
 ----------
 
-:2016:
+:2017-now:
+  DevOps in `Dojo labs <https://dojo.bullguard.com>`_. Created database
+  migration workflow. Implemented instrumentation for backend processes.
+  Improved logging infrastructure. Improved Git workflow. Implemented CI/CD
+  pipeline from scratch using ECR, GitLab CI and Docker.
+
+:2016-2017:
   DevOps in `FDNA <https://www.fdna.com/>`_. Migrated production and dev
-  environments to AWS. Inherited a big Ansible codebase, added testing and a
+  environments to AWS. Inherited a big Ansible code-base, added testing and a
   refactored. Instituted CI, CD (for some projects) and an artifact
   repository. Replaced unmaintained Nagios setup with a fully automated
   CloudWatch metrics and alerts setup.
@@ -99,5 +105,5 @@ Military Service
 Job expectations
 ----------------
 
-Looking for a sysadmin/ devops position. Preferably in Haifa, Tel-aviv or
-anywhere with a train station near, remote work is also possible.
+Looking for a senior DevOps position. Preferably remote (working from GMT+2) or
+anywhere near a train station between Haifa and Tel-aviv.
