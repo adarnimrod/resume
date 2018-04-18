@@ -31,5 +31,6 @@ clean:
 
 publish: all
 	rsync -az resume.html resume.pdf resume.odt resume.docx $(SERVER):$(DEST)
+	ssh $(SERVER) "ln -sf resume.html $(DEST)/index.html"
 
 test: clean all
