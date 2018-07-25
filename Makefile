@@ -18,7 +18,7 @@ resume.html: $(RESUME) Makefile
 	pandoc -s -t html5 --email-obfuscation=none $(RESUME) -o resume.html
 
 resume.pdf: $(RESUME) Makefile
-	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.pdf
+	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -V documentclass=mycv -o resume.pdf
 
 resume.docx: $(RESUME) Makefile
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.docx
