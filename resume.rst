@@ -32,8 +32,8 @@ About me
 
 - sh < Awk < Fabric < Ansible.
 
-- Believes in infrastructure as code, reproducibility, readability and good
-  documentation.
+- Believes in infrastructure as code, reproducibility, readability and minimal
+  suprises.
 
 - Speaks Hebrew (mother tongue), English (Fluent) and some Yiddish.
 
@@ -47,10 +47,11 @@ Employment
 ----------
 
 :2017-now:
-  DevOps in `Dojo labs <https://dojo.bullguard.com>`_. Created database
+  DevOps in `Dojo labs <https://dojo.bullguard.com>`_. Established database
   migration workflow. Implemented instrumentation for backend processes.
-  Improved logging infrastructure. Improved Git workflow. Implemented CI/CD
-  pipeline from scratch using ECR, GitLab CI and Docker.
+  Improved logging infrastructure. Improved Git workflow. Broke a monolith
+  application to services with Docker, deployed at scale with Kubernetes (both
+  on-premise and cloud installations). Added a CI/CD pipeline with GitLab.
 
 :2016-2017:
   DevOps in `FDNA <https://www.fdna.com/>`_. Migrated production and dev
