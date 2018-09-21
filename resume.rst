@@ -106,5 +106,4 @@ Military Service
 Job expectations
 ----------------
 
-Looking for a senior DevOps position. Preferably remote (working from GMT+2) or
-anywhere near a train station between Haifa and Tel-aviv.
+Looking for a senior DevOps position, working remotely from Israel.
