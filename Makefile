@@ -10,27 +10,40 @@ RESUME = resume.rst
 # Output paper size
 PAPERSIZE = A4
 
-.PHONY: all clean publish test
+OUTPUTS = resume.html resume.pdf resume.docx resume.odt
 
-all: resume.html resume.pdf resume.docx resume.odt
+.PHONY: all
+all: $(OUTPUTS)
 
 resume.html: $(RESUME)
-	pandoc -s -t html5 --email-obfuscation=none $(RESUME) -o resume.html
+	pandoc --standalone \
+		   --to html5 \
+		   --email-obfuscation none \
+		   --output $@ \
+		   $<
 
 resume.pdf: $(RESUME)
-	pandoc --pdf-engine=xelatex $(RESUME) -M 'mainfont: SILEOT.ttf' -V papersize=$(PAPERSIZE) -V documentclass=mycv -o resume.pdf
+	pandoc --pdf-engine xelatex \
+		   --metadata 'mainfont=SILEOT.ttf' \
+		   --variable 'papersize=$(PAPERSIZE)' \
+		   --variable 'documentclass=mycv' \
+		   --output $@ \
+		   $<
 
 resume.docx: $(RESUME)
-	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.docx
+	pandoc --variable 'papersize=$(PAPERSIZE)' --output $@ $<
 
 resume.odt: $(RESUME)
-	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.odt
+	pandoc --variable 'papersize=$(PAPERSIZE)' --output $@ $<
 
+.PHONY: clean
 clean:
 	git clean -fdX
 
+.PHONY: publish
 publish: all
-	rsync -az resume.html resume.pdf resume.odt resume.docx $(SERVER):$(DEST)
+	rsync -az $(OUTPUTS) $(SERVER):$(DEST)
 	ssh $(SERVER) "ln -sf resume.html $(DEST)/index.html"
 
+.PHONY: test
 test: clean all
