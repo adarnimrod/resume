@@ -18,7 +18,7 @@ resume.html: $(RESUME)
 	pandoc -s -t html5 --email-obfuscation=none $(RESUME) -o resume.html
 
 resume.pdf: $(RESUME)
-	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.pdf
+	pandoc --pdf-engine=xelatex $(RESUME) -M 'mainfont: SILEOT.ttf' -V papersize=$(PAPERSIZE) -V documentclass=mycv -o resume.pdf
 
 resume.docx: $(RESUME)
 	pandoc $(RESUME) -V papersize=$(PAPERSIZE) -o resume.docx
