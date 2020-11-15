@@ -1,14 +1,14 @@
-Nimrod Adar - נמרוד אדר - Resume (January 2018)
+Nimrod Adar - נמרוד אדר - Resume (October 2020)
 ###############################################
 
 Contact information
 -------------------
 
 :Tel:
-   +972-52-871-3696
+   `+972-52-871-3696 <tel:+972528713696>`_
 
 :Mail:
-   nimrod@shore.co.il
+   `nimrod@shore.co.il <mailto: nimrod@shore.co.il>`_
 
 :Blog:
     https://www.shore.co.il/blog/
@@ -19,9 +19,9 @@ Contact information
 About me
 --------
 
-- Born in ’83.
+- Freelance, works remotely from Zichron Ya'akov, Israel.
 
-- Resides in Haifa, Israel.
+- Born in ’83.
 
 - German and Israeli citizenship.
 
@@ -39,14 +39,24 @@ About me
 
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarans.
 
-- Likes: Python, Ansible, Git, SSH, Vim, Docker, Markdown and the command line.
+- Likes: Python, Ansible, Git, SSH, Vim, Docker, Markdown, Hashicorp and the
+  command line.
 
 - Dislikes: Bureaucracy, knowledge silos.
 
 Employment
 ----------
 
-:2017-now:
+:2019-now:
+  Senior DevOps engineer at the `Endless OS Foundation
+  <https://www.endlessos.org/>`_ (previous Endless Mobile). Improving security
+  practices, reducing infrastructure cost, built infrastructure for
+  containerized services.  Implemented logging and metric collection for
+  visibility into our services.  Took ownership of a metric collection service,
+  collecting metrics from 10s of thousands of installations, reporting over a
+  million metric points daily.
+
+:2017-2018:
   DevOps in `Dojo labs <https://dojo.bullguard.com>`_. Established database
   migration workflow. Implemented instrumentation for backend processes.
   Improved logging infrastructure. Improved Git workflow. Broke a monolith
@@ -102,8 +112,3 @@ Military Service
 
 :2002-2005:
    L.T. Of the Israeli Navy Commanding School, exemplary service.
-
-Job expectations
-----------------
-
-Looking for a senior DevOps position, working remotely from Israel.
