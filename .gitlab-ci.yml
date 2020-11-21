@@ -1,0 +1,14 @@
+---
+build:
+  tags: ["host01.shore.co.il"]
+  script:
+    - cid="$(basename $(cat /proc/1/cpuset))"
+    - docker pull adarnimrod/presentation
+    - >-
+      docker run
+      --rm
+      --volumes-from "$cid"
+      --volume "/var/www/www.shore.co.il/resume:/builds/nimrod/resume/output"
+      --workdir "/builds/nimrod/resume"
+      adarnimrod/presentation
+      make DESTDIR=output
