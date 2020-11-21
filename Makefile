@@ -10,19 +10,24 @@ RESUME = resume.rst
 # Output paper size
 PAPERSIZE = A4
 
-OUTPUTS = resume.html resume.pdf resume.docx resume.odt
+# Allow saving files in a different directory
+DESTDIR ?= .
+
+OUTPUTS = $(DESTDIR)/resume.html $(DESTDIR)/resume.pdf $(DESTDIR)/resume.docx $(DESTDIR)/resume.odt
 
 .PHONY: all
 all: $(OUTPUTS)
 
-resume.html: $(RESUME)
+$(DESTDIR)/resume.html: $(RESUME)
+	mkdir -p $(DESTDIR)
 	pandoc --standalone \
 		   --to html5 \
 		   --email-obfuscation none \
 		   --output $@ \
 		   $<
 
-resume.pdf: $(RESUME)
+$(DESTDIR)/resume.pdf: $(RESUME)
+	mkdir -p $(DESTDIR)
 	pandoc --pdf-engine xelatex \
 		   --metadata 'mainfont=SILEOT.ttf' \
 		   --variable 'papersize=$(PAPERSIZE)' \
@@ -30,10 +35,12 @@ resume.pdf: $(RESUME)
 		   --output $@ \
 		   $<
 
-resume.docx: $(RESUME)
+$(DESTDIR)/resume.docx: $(RESUME)
+	mkdir -p $(DESTDIR)
 	pandoc --variable 'papersize=$(PAPERSIZE)' --output $@ $<
 
-resume.odt: $(RESUME)
+$(DESTDIR)/resume.odt: $(RESUME)
+	mkdir -p $(DESTDIR)
 	pandoc --variable 'papersize=$(PAPERSIZE)' --output $@ $<
 
 .PHONY: clean
