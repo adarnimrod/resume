@@ -14,7 +14,7 @@ Contact information
     https://www.shore.co.il/blog/
 
 :Git repos:
-    https://www.shore.co.il/git/
+    https://git.shore.co.il/nimrod/
 
 About me
 --------
