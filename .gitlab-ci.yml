@@ -1,6 +1,7 @@
 ---
 build:
   tags: ["host01.shore.co.il"]
+  only: ["nimrod"]
   script:
     - cid="$(basename $(cat /proc/1/cpuset))"
     - docker pull adarnimrod/presentation
