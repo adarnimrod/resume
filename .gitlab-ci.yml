@@ -10,6 +10,6 @@ build:
       --rm
       --volumes-from "$cid"
       --volume "/var/www/www.shore.co.il/resume:/builds/nimrod/resume/output"
-      --workdir "/builds/nimrod/resume"
+      --workdir "$PWD"
       adarnimrod/presentation
       make DESTDIR=output
