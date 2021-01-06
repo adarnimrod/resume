@@ -17,4 +17,7 @@ build:
       --volume "/var/www/www.shore.co.il/resume:/builds/nimrod/resume/output"
       --workdir "$PWD"
       adarnimrod/presentation
-      make DESTDIR=output
+      make
+      DESTDIR=output
+      --jobs=4
+      --keep-going
