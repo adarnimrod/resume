@@ -1,10 +1,10 @@
-Resume generator
+Résumé generator
 ================
 
-A (very) little framework to generate your resume from whatever markup that
+A tiny framework to generate your résumé from whatever markup that
 suits you (and that Pandoc can read).
 
-My own resume is in the :code:`nimrod` branch, the outputed files can be found
+My own résumé is in the :code:`nimrod` branch, the outputed files can be found
 in my `about me <https://www.shore.co.il/blog/pages/about-me.html>`_ page.
 
 Dependencies
@@ -40,7 +40,7 @@ To upload to webserver (includes rebuilding all versions)
 License
 -------
 
-This repository is licensed under the `Creative Commons 
+This repository is licensed under the `Creative Commons
 Attribution 4.0 International (CC BY 4.0) license
 <http://creativecommons.org/licenses/by/4.0/>`_ (see :code:`LICENSE.txt`)
 

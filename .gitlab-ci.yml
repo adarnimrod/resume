@@ -1,5 +1,10 @@
 ---
+include:
+  - project: shore/ci-templates
+    file: templates/pre-commit.yml
+
 build:
+  stage: deploy
   tags: ["host01.shore.co.il"]
   only: ["nimrod"]
   script:
