@@ -112,3 +112,8 @@ Military Service
 
 :2002-2005:
    L.T. Of the Israeli Navy Commanding School, exemplary service.
+
+
+.. image:: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg
+    :target: http://creativecommons.org/licenses/by/4.0/
+    :alt: Creative Commons Attribution 4.0 International (CC BY 4.0) license
