@@ -42,7 +42,7 @@ License
 
 This repository is licensed under the `Creative Commons 
 Attribution 4.0 International (CC BY 4.0) license
-<http://creativecommons.org/licenses/by/4.0/>`_.
+<http://creativecommons.org/licenses/by/4.0/>`_ (see :code:`LICENSE.txt`)
 
 Author
 ------
@@ -50,4 +50,4 @@ Author
 Nimrod Adar, `contact me <nimrod@shore.co.il>`_ or visit my `website
 <https://www.shore.co.il/>`_. Patches are welcome via `git send-email
 <http://git-scm.com/book/en/v2/Git-Commands-Email>`_. The repository is located
-at: https://www.shore.co.il/git/.
+at: https://git.shore.co.il/explore.
