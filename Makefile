@@ -1,8 +1,8 @@
 # Server name to upload
-SERVER = hostname.tld
+SERVER = host01.shore.co.il
 
 # Destination folder on the server
-DEST = /var/www/resume
+DEST = /var/www/www.shore.co.il/resume
 
 # Source resume
 RESUME = resume.rst
