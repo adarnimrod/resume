@@ -19,7 +19,9 @@ Contact information
 About me
 --------
 
-- Freelance, works remotely from Zichron Ya'akov, Israel.
+- DevOps engineer, Linux and BSD sysadmin and Python developer.
+
+- Freelance, working remotely from Zichron Ya'akov, Israel.
 
 - Born in ’83.
 
@@ -30,8 +32,6 @@ About me
 - Python backend developer (dabbled in C, C++, Scheme, Pascal, Perl, PHP, JS,
   Ruby, Go, Clojure and Lua).
 
-- sh < Awk < Fabric < Ansible.
-
 - Believes in infrastructure as code, reproducibility, readability and minimal
   suprises.
 
@@ -39,8 +39,8 @@ About me
 
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarans.
 
-- Likes: Python, Ansible, Git, SSH, Vim, Docker, Markdown, Hashicorp and the
-  command line.
+- Likes: Python, Ansible, Git, SSH, Vim, Docker, Markdown, Hashicorp, AWK and
+  the command line.
 
 - Dislikes: Bureaucracy, knowledge silos.
 
