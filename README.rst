@@ -27,13 +27,13 @@ To build the pdf version (same for odt, html, docx)
 
 .. code:: shell
 
-    docker run -itv "$PWD:/project" adarnimrod/presentation make pdf
+    docker run -itv "$PWD:/project" registry.shore.co.il/presentation make pdf
 
 To build all versions
 
 .. code:: shell
 
-    docker run -itv "$PWD:/project" adarnimrod/presentation make
+    docker run -itv "$PWD:/project" registry.shore.co.il/presentation make
 
 To upload to webserver (includes rebuilding all versions)
 

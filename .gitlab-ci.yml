@@ -9,14 +9,14 @@ build:
   only: ["nimrod"]
   script:
     - cid="$(basename $(cat /proc/1/cpuset))"
-    - docker pull adarnimrod/presentation
+    - docker pull registry.shore.co.il/presentation
     - >-
       docker run
       --rm
       --volumes-from "$cid"
       --volume "/var/www/www.shore.co.il/resume:/builds/nimrod/resume/output"
       --workdir "$PWD"
-      adarnimrod/presentation
+      registry.shore.co.il/presentation
       make
       DESTDIR=output
       --jobs=4
