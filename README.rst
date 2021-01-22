@@ -1,6 +1,10 @@
 Résumé generator
 ================
 
+.. image:: https://git.shore.co.il/nimrod/resume/badges/master/pipeline.svg
+    :target: https://git.shore.co.il/nimrod/resume/-/commits/master
+    :alt: pipeline status
+
 A tiny framework to generate your résumé from whatever markup that
 suits you (and that Pandoc can read).
 
