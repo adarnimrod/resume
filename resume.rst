@@ -32,9 +32,6 @@ About me
 - Python backend developer (dabbled in C, C++, Scheme, Pascal, Perl, PHP, JS,
   Ruby, Go, Clojure and Lua).
 
-- Believes in infrastructure as code, reproducibility, readability and minimal
-  suprises.
-
 - Speaks Hebrew (mother tongue), English (Fluent) and some Yiddish.
 
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarans.
@@ -46,18 +43,18 @@ Employment
   Senior DevOps engineer at the `Endless OS Foundation
   <https://www.endlessos.org/>`_ (previous Endless Mobile). Improved security
   practices and secret management, reduced infrastructure cost, built
-  infrastructure for containerized services.  Implemented logging and metric
-  collection for visibility into our services.  Took ownership of a metric
+  infrastructure for containerized services. Implemented logging and metric
+  collection for visibility into our services. Took ownership of a metric
   collection service, collecting metrics from 10s of thousands of installations,
   reporting over a million metric points daily. Main tools: Terraform, Ansible,
-  Docker, Python AWS, ECS, Jenkins, Postgres and Hashicorp Vault.
+  Docker, Python, AWS, ECS, Jenkins, Postgres and Hashicorp Vault.
 
 :2017-2018:
   DevOps in `Dojo labs <https://dojo.bullguard.com>`_. Reduced time to
-  production with CI/CD pipelines and testing procedures. Improved reliability
+  production with CI/CD pipelines and automated testing. Improved reliability
   by implementing log and metric collection. Established workflows for
   development, testing and releases. Created tooling for database migrations and
-  established database migrations workflows. Broke a monolite application to
+  established database migrations workflow. Broke a monolith application to
   containerized services. Led a PoC of Kubernetes deployment both in the cloud
   and on-premise. Main tools: Ansible, Docker, Python, RabbitMQ, ELK, AWS and
   Postgres.
@@ -77,41 +74,41 @@ Employment
   of requests a minute running on 10s of nodes on AWS (using Ansible and LXC).
 
 :2013-2014:
-   Sysadmin in Intel Haifa, managing a cluster of ~250 SuSE Linux servers and
-   ~80 TB of EMC and NetApp NAS appliances in production and DR replicated
-   environments, shell and Python scripting, automation, software deployment,
-   monitoring and growth projection.
+  Sysadmin in Intel Haifa, managing a cluster of ~250 SuSE Linux servers and ~80
+  TB of EMC and NetApp NAS appliances in production and DR replicated
+  environments, shell and Python scripting, automation, software deployment,
+  monitoring and growth projection.
 
 :2008-2013:
   Technical director of Haifa's Cinematheque. Setup a windows based ticketing
-  system with PowerShell automation, new LAMP based web site with online
-  orders, new digital projection system with Linux-based players, networking
-  projection rooms and self built 20TB NAS based on Debian.
+  system with PowerShell automation, new LAMP based web site with online orders,
+  new digital projection system with Linux-based players, networking projection
+  rooms and self built 20TB NAS based on Debian.
 
 :2007-2009:
-   Volunteered as a tutor at Hadar Haifa learning center, teaching math and
-   English.
+  Volunteered as a tutor at Hadar Haifa learning center, teaching math and
+  English.
 
 :2007-2008:
-    Jr. sysadmin and help-desk in Haifa University' library. Assisted in
-    decommissioning a Novell directory and moving to Active Directory and
-    supported Windows and RHEL servers, networking, VMware ESX, backup and
-    Windows Terminal Services with thin-clients.
+  Jr. sysadmin and help-desk in Haifa University' library. Assisted in
+  decommissioning a Novell directory and moving to Active Directory and
+  supported Windows and RHEL servers, networking, VMware ESX, backup and Windows
+  Terminal Services with thin-clients.
 
 Education
 ---------
 
 :2007-2010:
-   Haifa University, majoring in CS.
+  Haifa University, majoring in CS.
 
 :2006:
-   Technion, majoring in MIS
+  Technion, majoring in MIS
 
 Military Service
 ----------------
 
 :2002-2005:
-   L.T. Of the Israeli Navy Commanding School, exemplary service.
+  L.T. Of the Israeli Navy Commanding School, exemplary service.
 
 
 .. image:: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg
