@@ -1,4 +1,4 @@
-Nimrod Adar - נמרוד אדר - Resume (October 2020)
+Nimrod Adar - נמרוד אדר - Resume (April 2021)
 ###############################################
 
 Contact information
@@ -13,7 +13,7 @@ Contact information
 :Blog:
     https://www.shore.co.il/blog/
 
-:Git repos:
+:Portfolio:
     https://git.shore.co.il/explore/
 
 About me
@@ -39,40 +39,40 @@ About me
 
 - Avid sailor, used to be rank 2nd in Israel in 5.5m Catamarans.
 
-- Likes: Python, Ansible, Git, SSH, Vim, Docker, Markdown, Hashicorp, AWK and
-  the command line.
-
-- Dislikes: Bureaucracy, knowledge silos.
-
 Employment
 ----------
 
-:2019-now:
+:2019-2021:
   Senior DevOps engineer at the `Endless OS Foundation
-  <https://www.endlessos.org/>`_ (previous Endless Mobile). Improving security
-  practices, reducing infrastructure cost, built infrastructure for
-  containerized services.  Implemented logging and metric collection for
-  visibility into our services.  Took ownership of a metric collection service,
-  collecting metrics from 10s of thousands of installations, reporting over a
-  million metric points daily.
+  <https://www.endlessos.org/>`_ (previous Endless Mobile). Improved security
+  practices and secret management, reduced infrastructure cost, built
+  infrastructure for containerized services.  Implemented logging and metric
+  collection for visibility into our services.  Took ownership of a metric
+  collection service, collecting metrics from 10s of thousands of installations,
+  reporting over a million metric points daily. Main tools: Terraform, Ansible,
+  Docker, Python AWS, ECS, Jenkins, Postgres and Hashicorp Vault.
 
 :2017-2018:
-  DevOps in `Dojo labs <https://dojo.bullguard.com>`_. Established database
-  migration workflow. Implemented instrumentation for backend processes.
-  Improved logging infrastructure. Improved Git workflow. Broke a monolith
-  application to services with Docker, deployed at scale with Kubernetes (both
-  on-premise and cloud installations). Added a CI/CD pipeline with GitLab.
+  DevOps in `Dojo labs <https://dojo.bullguard.com>`_. Reduced time to
+  production with CI/CD pipelines and testing procedures. Improved reliability
+  by implementing log and metric collection. Established workflows for
+  development, testing and releases. Created tooling for database migrations and
+  established database migrations workflows. Broke a monolite application to
+  containerized services. Led a PoC of Kubernetes deployment both in the cloud
+  and on-premise. Main tools: Ansible, Docker, Python, RabbitMQ, ELK, AWS and
+  Postgres.
 
 :2016-2017:
   DevOps in `FDNA <https://www.fdna.com/>`_. Migrated production and dev
-  environments to AWS. Inherited a big Ansible code-base, added testing and a
+  environments to AWS. Inherited a big Ansible code-base, added testing and
   refactored. Instituted CI, CD (for some projects) and an artifact
   repository. Replaced unmaintained Nagios setup with a fully automated
-  CloudWatch metrics and Lambda alerts setup.
+  CloudWatch metrics and Lambda alerts setup. Main tools: Ansible, Python, AWS,
+  MySQL, MongoDB, Bitbucket Pipelines.
 
 :2014-2015:
   DevOps in `Wise ecommerce <https://www.wiser.com/>`_, in charge of
-  reliability, automation, scaling. Helped transition the company from single
+  reliability, automation, scaling. Helped transition the company from a single
   physical server to AWS. Proudest moment: scaling a single process to 10,000s
   of requests a minute running on 10s of nodes on AWS (using Ansible and LXC).
 
