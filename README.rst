@@ -1,18 +1,14 @@
-Nimrod Adar's resume
+Nimrod Adar's résumé
 ====================
 
 .. image:: https://git.shore.co.il/nimrod/resume/badges/nimrod/pipeline.svg
     :target: https://git.shore.co.il/nimrod/resume/-/commits/nimrod
     :alt: pipeline status
 
-My resume in RestructureText, make targets for generating PDF, HTML, ODT and
-DOCX versions and uploading to my web server. The pre-prepared version are
-available `here <https://www.shore.co.il/blog/pages/about-me.html>`_. The
-version in the master branch is generic and without my resume, in the nimrod
-branch are my resume and specific settings.
->>>>>>> ef83aca... Rebase on the master branch.
+A tiny framework to generate your résumé from whatever markup that
+suits you (and that Pandoc can read).
 
-My own resume is in the :code:`nimrod` branch, the outputed files can be found
+My own résumé is in the :code:`nimrod` branch, the outputed files can be found
 in my `about me <https://www.shore.co.il/blog/pages/about-me.html>`_ page.
 
 Dependencies
