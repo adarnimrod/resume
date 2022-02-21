@@ -8,7 +8,7 @@ Résumé generator
 A tiny framework to generate your résumé from whatever markup that
 suits you (and that Pandoc can read).
 
-My own résumé is in the :code:`nimrod` branch, the outputed files can be found
+My own résumé is in the :code:`nimrod` branch, the outputted files can be found
 in my `about me <https://www.shore.co.il/blog/pages/about-me.html>`_ page.
 
 Dependencies
