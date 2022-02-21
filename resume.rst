@@ -1,5 +1,8 @@
 Nimrod Adar - נמרוד אדר - Resume (April 2021)
-###############################################
+#############################################
+
+DevOps engineer and Python developer
+************************************
 
 Contact information
 -------------------
@@ -19,7 +22,7 @@ Contact information
 About me
 --------
 
-- DevOps engineer, Linux and BSD sysadmin and Python developer.
+- DevOps engineer, Python developer and  Linux and BSD sysadmin.
 
 - Freelance, working remotely from Zichron Ya'akov, Israel.
 
