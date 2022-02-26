@@ -8,7 +8,8 @@ build:
   tags: ["ns4.shore.co.il"]
   only: ["nimrod"]
   script:
-    - cid="$(basename $(cat /proc/1/cpuset))"
+    # yamllint disable-line rule:line-length
+    - cid="$(basename "$(dirname "$(awk '/hostname/ {print $4}' /proc/1/mountinfo)")")"
     - docker pull registry.shore.co.il/presentation
     - >-
       docker run
