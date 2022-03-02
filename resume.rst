@@ -11,7 +11,7 @@ Contact information
    `+972-52-871-3696 <tel:+972528713696>`_
 
 :Mail:
-   `nimrod@shore.co.il <mailto: nimrod@shore.co.il>`_
+   `nimrod@shore.co.il <mailto: nimrod+wanted@shore.co.il>`_
 
 :Blog:
     https://www.shore.co.il/blog/
