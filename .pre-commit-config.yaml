@@ -29,6 +29,6 @@ repos:
       - id: rst-linter
 
   - repo: https://github.com/myint/rstcheck.git
-    rev: master
+    rev: v6.2.0
     hooks:
       - id: rstcheck
