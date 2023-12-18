@@ -14,7 +14,7 @@ Contact information
     `nimrod@shore.co.il <mailto:nimrod+wanted@shore.co.il>`__
 
 :Matrix chat:
-    `nimrod@shore.co.il <matrix:nimrod@shore.co.il>`__
+    `@nimrod:shore.co.il <matrix:u/nimrod:shore.co.il>`__
 
 :Blog:
     https://www.shore.co.il/blog/
